@@ -165,3 +165,12 @@ main {
     color: rgb(31, 90, 168);
     background-color: rgb(31, 90, 168);
   }
+
+@media only screen and (max-width: 600px) {
+    .grid-container {
+    width: 315px;
+    height: 237px;
+    gap: 8px;
+  }
+
+  }
